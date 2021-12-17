@@ -1,5 +1,6 @@
 import './App.css';
 import Gallery from './Gallery';
+import SideBar from './SideBar';
 
 function App() {
   return (
@@ -8,7 +9,6 @@ function App() {
         Uked!
       </header>
       <Main />
-      <Gallery />
     </div>
   );
 }
@@ -17,6 +17,8 @@ function Main() {
   return (
     <div className="Main">
       Deals!
+      <SideBar />
+      <Gallery />
     </div>
   )
 }
