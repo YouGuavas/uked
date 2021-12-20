@@ -18,7 +18,7 @@ function Main() {
     <div className="Main">
       Deals!
       <section className="w-full max-w-6xl mx-auto px-4 m-4">
-        <div className="grid grid-cols-12 gap-4 flex-1 p-10">
+        <div className="grid md:grid-cols-12 gap-4 flex-1 p-10">
           <SideBar />
           <Gallery />
         </div>
