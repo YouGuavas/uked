@@ -17,8 +17,12 @@ function Main() {
   return (
     <div className="Main">
       Deals!
-      <SideBar />
-      <Gallery />
+      <section className="w-full max-w-6xl mx-auto px-4 m-4">
+        <div className="grid grid-cols-12 gap-4 flex-1 p-10">
+          <SideBar />
+          <Gallery />
+        </div>
+      </section>
     </div>
   )
 }
