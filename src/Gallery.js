@@ -4,7 +4,9 @@ function Gallery()  {
     <div className='md:col-span-9 p-4 grid md:grid-cols-2 gap-4'>
       {galleryItems.map((item, index) => (
           <div className='box' id={item.name} key={index}> 
-          <div className='font-bold text-2xl'>{item.name}</div> <div>${item.price}</div> </div>
+            <div className='font-bold text-2xl'>{item.name}</div> 
+            <div>${item.price}</div> 
+          </div>
       ))}
     </div>
   )
